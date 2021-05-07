@@ -38,7 +38,15 @@ h2 {
     text-align: center;
     text-shadow: 0 0 10px black;
     }
-    
+
+h2 {
+   color: azure;
+   font-size: 20px;
+   font-family: white;
+   text-align: center;
+   text-shadow: 0 0 10px black;
+    }
+
 a {
     margin: auto;
     text-decoration: none;

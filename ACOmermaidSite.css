@@ -89,3 +89,12 @@ text {
     width: 200px;
     height: 200px;
   }
+
+.button{ background-color: lightgray;
+    width: 115px; height: 30px;
+    text-align: center;
+    display: inline-block; 
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 4px;
+}

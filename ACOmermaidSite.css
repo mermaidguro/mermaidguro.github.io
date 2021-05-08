@@ -5,17 +5,17 @@ img {
 body {
     background-color: rgb(156, 240, 240);
 }
-.header {
+header {
     height: 100px;
     background-color: rgb(0, 118, 139);
     padding: 10px;
     border-radius:4px;
     font-family:arial;
 }
-.main {
+main {
     height: 2000px;
 }
-.footer {
+footer {
     height: 60px;
     background-color: rgb(78, 201, 238);
     padding: 10px;

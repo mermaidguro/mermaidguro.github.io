@@ -58,7 +58,6 @@ section {
     display: flex; 
     flex-direction: column;
 }
-section
 div {
     background-color: rgb(204, 204, 140);
     margin: auto;

@@ -67,7 +67,6 @@ img {
   div {
       background-color: rgb(204, 204, 140);
       margin: auto;
-      box-shadow: 10px 10px 5px grey;
       border-radius: 8px;
       padding: 5px;
       width: 90%;
@@ -85,6 +84,9 @@ img {
       border-radius: 8px;
       padding: 10px;
       width: 90%;
+  }
+  .shade {
+    box-shadow: 10px 10px 5px grey;
   }
   
   .left{text-align:left;float:left;}

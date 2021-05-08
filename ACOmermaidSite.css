@@ -5,7 +5,6 @@ body {
     height: 100px;
     background-color: rgb(0, 118, 139);
     padding: 10px;
-    box-shadow: 0px 0px 5px white;
     border-radius:4px;
     font-family:arial;
 }
@@ -56,6 +55,7 @@ section {
     display: flex; 
     flex-direction: column;
 }
+section 
 div {
     background-color: rgb(204, 204, 140);
     margin: auto;
@@ -98,4 +98,5 @@ text {
     margin: auto;
     border: 1px solid white;
     border-radius: 4px;
+    flex-direction: row;
 }

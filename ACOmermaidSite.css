@@ -1,111 +1,110 @@
 img {
-  border-radius: 8px;
-}
-
-body {
-    background-color: rgb(156, 240, 240);
-}
-header {
-    height: 90px;
-    background-color: rgb(0, 118, 139);
-    padding: 10px;
-    border-radius:4px;
-    font-family:arial;
-    display: flex;
-    flex-direction: row;
-}
-main {
-    height: 2000px;
-      display: flex;
-      flex-direction: column;
-}
-footer {
-    height: 60px;
-    background-color: rgb(78, 201, 238);
-    padding: 10px;
-    box-shadow: 0px 0px 5px white;
-    border-radius:4px;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-h1 {
-    color: azure;
-    font-size: 20px;
-    font-family: arial;
-    text-align: center;
-    text-shadow: 0 0 10px black;
-    }
-
-h2 {
-    color: azure;
-    font-size: 30px;
-    font-family: arial;
-    text-shadow: 0 0 10px black;
-    }
-
-h3 {
-   color: white;
-   font-size: 40px;
-   font-family: arial;
-   text-align: center;
-   text-shadow: 0 0 10px black;
-   text-decoration: underline;
-    }
-
-a {
-    margin: auto;
-    text-decoration: none;
-    text-align: center;
-}
-
-section {
-
-    display: flex; 
-    flex-direction: column;
-}
-div {
-    background-color: rgb(204, 204, 140);
-    margin: auto;
-    box-shadow: 10px 10px 5px grey;
     border-radius: 8px;
-    padding: 5px;
-    width: 90%;
-}
-
-text {
-    text-align: left;
-    padding: 10px;
-}
-
-.c {
-    background-color: rgb(93, 128, 148);
-    margin: auto;
-    box-shadow: 10px 10px 5px grey;
-    border-radius: 8px;
-    padding: 10px;
-    width: 90%;
-}
-
-.left{text-align:left;float:left;}
-.center {text-align:center;float:center;}
-.right {text-align:right;float:right;}
-.imgcenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 200px;
   }
-
-.button{ 
-    background-color: rgb(204, 204, 140);
-    width: 10%;
-    height:40px;
-    text-align: center;
-    display: inline-block; 
-    margin: auto;
-    border: 4px solid white;
-    border-radius: 4px;
-    margin:15px;
-}
+  
+  body {
+      background-color: rgb(156, 240, 240);
+  }
+  header {
+      height: 90px;
+      background-color: rgb(0, 118, 139);
+      padding: 10px;
+      border-radius:4px;
+      font-family:arial;
+      display: flex;
+      flex-direction: row;
+  }
+  main {
+      height: 2000px;
+        display: flex;
+        flex-direction: column;
+  }
+  footer {
+      height: 60px;
+      background-color: rgb(78, 201, 238);
+      padding: 10px;
+      box-shadow: 0px 0px 5px white;
+      border-radius:4px;
+      display: flex;
+      flex-direction: column-reverse;
+  }
+  
+  h1 {
+      color: azure;
+      font-size: 20px;
+      font-family: arial;
+      text-align: center;
+      text-shadow: 0 0 10px black;
+      }
+  
+  h2 {
+      color: azure;
+      font-size: 30px;
+      font-family: arial;
+      text-shadow: 0 0 10px black;
+      }
+  
+  h3 {
+     color: white;
+     font-size: 40px;
+     font-family: arial;
+     text-align: center;
+     text-shadow: 0 0 10px black;
+     text-decoration: underline;
+      }
+  
+  a {
+      margin: auto;
+      text-decoration: none;
+      text-align: center;
+  }
+  
+  section {
+  
+      display: flex; 
+      flex-direction: column;
+  }
+  div {
+      background-color: rgb(204, 204, 140);
+      margin: auto;
+      box-shadow: 10px 10px 5px grey;
+      border-radius: 8px;
+      padding: 5px;
+      width: 90%;
+  }
+  
+  text {
+      text-align: left;
+      padding: 10px;
+  }
+  
+  .c {
+      background-color: rgb(93, 128, 148);
+      margin: auto;
+      box-shadow: 10px 10px 5px grey;
+      border-radius: 8px;
+      padding: 10px;
+      width: 90%;
+  }
+  
+  .left{text-align:left;float:left;}
+  .center {text-align:center;float:center;}
+  .right {text-align:right;float:right;}
+  .imgcenter {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+      height: 200px;
+    }
+  
+  .button{ 
+      background-color: rgb(204, 204, 140);
+      width: 10%;
+      height:40px;
+      text-align: center;
+      display: inline-block; 
+      border: 1px solid white;
+      border-radius: 4px;
+      margin:15px;
+  }

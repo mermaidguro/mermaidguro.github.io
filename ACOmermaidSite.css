@@ -56,7 +56,7 @@ a {
 section {
 
     display: flex; 
-    flex-direction: column;
+    flex-direction: row;
 }
 section
 div {

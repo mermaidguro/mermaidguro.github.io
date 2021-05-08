@@ -67,7 +67,7 @@ div {
     border-radius: 8px;
     padding: 5px;
     width: 90%;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 text {

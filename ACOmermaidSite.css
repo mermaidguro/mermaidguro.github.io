@@ -96,7 +96,7 @@ text {
   }
 
 .button{ background-color: lightgray;
-    width: 115px; height: 30px;
+    width: 10%;
     text-align: center;
     display: inline-block; 
     margin: auto;

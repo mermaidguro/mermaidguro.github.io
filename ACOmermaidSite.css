@@ -1,4 +1,4 @@
-img {
+    img {
     border-radius: 8px;
   }
   
@@ -26,7 +26,7 @@ img {
       box-shadow: 0px 0px 5px white;
       border-radius:4px;
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: row;
   }
   
   h1 {
@@ -52,7 +52,13 @@ img {
      text-shadow: 0 0 10px black;
      text-decoration: underline;
       }
-  
+  h4 {
+      color: white;
+      font-size: 20px;
+      font-family: arial;
+      text-shadow: 0 0 10px black;
+  }
+      
   a {
       margin: auto;
       text-decoration: none;
@@ -64,34 +70,33 @@ img {
       display: flex; 
       flex-direction: column;
   }
-  div {
-      background-color: rgb(204, 204, 140);
-      margin: auto;
-      border-radius: 8px;
-      padding: 5px;
-      width: 90%;
-  }
-  
-  text {
-      text-align: left;
-      padding: 10px;
-  }
-  
-  .c {
+  .firstbar {
       background-color: rgb(93, 128, 148);
       margin: auto;
       box-shadow: 10px 10px 5px grey;
       border-radius: 8px;
       padding: 10px;
       width: 90%;
+      flex-direction: row;
+      display: flex;
   }
-  .shade {
+  .bar {
+    background-color: rgb(204, 204, 140);  
+    margin: auto;
     box-shadow: 10px 10px 5px grey;
+    border-radius: 8px;
+    padding: 10px;
+    width: 90%; 
+    flex-direction: row;
+    display: flex;
+  }
+
+  .gap { 
+    margin: auto;
+    padding: 5px;
+    width: 9001px;
   }
   
-  .left{text-align:left;float:left;}
-  .center {text-align:center;float:center;}
-  .right {text-align:right;float:right;}
   .imgcenter {
       display: block;
       margin-left: auto;
@@ -109,5 +114,3 @@ img {
       border: 1px solid white;
       border-radius: 4px;
       margin:15px;
-      
-  }

@@ -108,7 +108,7 @@ section {
     height: 200px;
     }
   
-  .button{ 
+.button{ 
     background-color: rgb(204, 204, 140);
     width: 10%;
     height:40px;
@@ -117,3 +117,17 @@ section {
     border: 1px solid white;
     border-radius: 4px;
     margin:15px;
+    
+.infobox {
+    font-size: 30px;
+    background-color: rgb(46, 42, 42);
+    padding: 80px;
+    width: 80%;
+    height: 90%;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 8px;   
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    }
